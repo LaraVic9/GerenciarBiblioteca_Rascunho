@@ -14,16 +14,7 @@
 
 </head>
 <body>
-	<h1>Seja bem vindo!</h1> <br/>
-	<h2>Informacoes...informacoes...</h2>
-	<h1>Cadastro</h1>
-	
-	<form action="cadastro.jsp" method="post">
-	
-		<br />	
-			<input type="submit" value="Se Cadastrar..." />
-	
-	</form>
+	<jsp:forward page="LeitorController?action=listLeitor"/>
 	
 </body>
 </html>

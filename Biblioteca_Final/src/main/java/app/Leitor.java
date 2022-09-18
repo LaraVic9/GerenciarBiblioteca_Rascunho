@@ -3,17 +3,17 @@ package app;
 //import java.time.LocalDate;
 
 public class Leitor {
-	private int id;
+	private int leitorid;
 	private String nome;
 	private String sobrenome;
 	//private LocalDate dataNasc;
 	private String email;
 	
 	public int getId() {
-		return id;
+		return leitorid;
 	}
 	public void setId(int id) {
-		this.id = id;
+		this.leitorid = id;
 	}
 	
 	public String getNome() {
@@ -88,5 +88,10 @@ public class Leitor {
 		}
 		
 		this.email = email;
+	}
+	
+	public String toString() {
+		return "Leitor [leitorid=" + leitorid ", nome=" + nome
+				+ ",sobrenome" + sobrenome"]";
 	}
 }
